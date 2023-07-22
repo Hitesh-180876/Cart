@@ -1,0 +1,27 @@
+/* Sidebar.css */
+
+/* Styling for the Sidebar container */
+.sidebar {
+    width: 200px; /* Set the width of the sidebar */
+    background-color: black; /* Set the background color */
+    color: blanchedalmond; /* Set the text color */
+    padding: 20px; /* Add padding to the sidebar */
+  }
+  
+  /* Styling for the individual items in the sidebar */
+  .sidebar-item {
+    margin-bottom: 10px; /* Add some space between items */
+    cursor: pointer; /* Add pointer cursor for better UX */
+  }
+  
+  /* Style the links (optional) */
+  .sidebar-item a {
+    text-decoration: none; /* Remove default underline */
+    color: #fff; /* Set link text color */
+  }
+  
+  /* Hover effect for links (optional) */
+  .sidebar-item a:hover {
+    text-decoration: underline;
+  }
+  
